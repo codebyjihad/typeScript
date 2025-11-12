@@ -1,0 +1,16 @@
+var num1 = 10;
+var num2 = 20;
+var total = num1 + num2;
+console.log(total);
+var oct = 4096;
+// oct value 0o1;
+var hexa = 0x00001;
+// hexa value 0x;
+var binary = 31;
+// binary balue 0b;
+var item = 100;
+var items2 = '500';
+var items2convared = Number(items2);
+console.log(item + items2);
+var data = 30;
+data = 'fdfdsgsd';

@@ -1,0 +1,12 @@
+var str = 'hello how are you 1';
+var str2 = "hello how are you 2";
+var str3 = 'hello how are you 3';
+var age = 30;
+var userName = 'jihad';
+var info = "My name is ".concat(userName, " and age is  ").concat(age);
+var num = 100;
+var data = num.toString();
+var items = true;
+var other;
+other = items;
+console.log(other);

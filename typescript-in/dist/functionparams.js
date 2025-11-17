@@ -16,4 +16,14 @@ function anyOfFunction(data) {
     console.log(data);
 }
 anyOfFunction('JIhad kaka');
+function IamJihadSay() {
+    let name = 'jihad';
+    console.log(`Hello My Name is ${name}`);
+}
+IamJihadSay();
+function studentinfo(name) {
+    return name;
+}
+studentinfo('jihad ');
+studentinfo(999);
 //# sourceMappingURL=functionparams.js.map

@@ -12,11 +12,18 @@ function FruitsData() {
     else {
         return 'apple';
     }
-    return 'jihad';
 }
 console.log(FruitsData());
 function studentDatas(name) {
-    return name;
+    if (typeof name === 'string') {
+        return 'Student nam is ' + name;
+    }
+    if (typeof name === 'number') {
+        return 'student age is ' + name;
+    }
 }
 studentDatas('jihad');
+const country = 'Bangladesh';
+const HelloIamJiahd = `Hello world ${country}`;
+console.log(HelloIamJiahd);
 //# sourceMappingURL=union.js.map

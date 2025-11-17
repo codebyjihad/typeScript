@@ -13,18 +13,21 @@ function FruitsData():string | string[] | number{
     }else{
         return 'apple'
     }
-
-    return 'jihad'
 }
 console.log(FruitsData())
 
-
-
 function studentDatas(name:string){
-    return name ;
+  
+   if(typeof name === 'string'){
+      return 'Student nam is ' + name
+   }
+
+   if(typeof name  === 'number'){
+    return 'student age is ' + name
+   }
 }
 
 studentDatas('jihad')
-
-
-
+const country:string = 'Bangladesh'
+const HelloIamJiahd:string = `Hello world ${country}`
+console.log(HelloIamJiahd)

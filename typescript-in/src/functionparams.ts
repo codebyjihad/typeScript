@@ -21,12 +21,25 @@ simple('jihad')
 
 
 
-
-
 function anyOfFunction(data:any){
     console.log(data)
 }
 
 anyOfFunction('JIhad kaka')
 
+
+
+function IamJihadSay():void{
+    let name = 'jihad'
+   console.log(`Hello My Name is ${name}`)
+}
+
+IamJihadSay()
+
+function studentinfo(name:string | number){
+    return name;
+}
+
+studentinfo('jihad ') 
+studentinfo(999)
 
